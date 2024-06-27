@@ -20,6 +20,8 @@ then we print info on file, file.parent and file.parent.parent
 -Error: parent of parent does not exist: NULL
 ```
 
+> normal
+
 ### ./Project/TestRelativeFilePath.4DProject
 
 ```diff
@@ -27,6 +29,7 @@ then we print info on file, file.parent and file.parent.parent
 -Error: parent does not exist:/Project/
 -Error: parent of parent does not exist: NULL
 ```
+> normal
 
 ### /Users/runner/work/TestRelativeFilePath/TestRelativeFilePath/Project/TestRelativeFilePath.4DProject
 

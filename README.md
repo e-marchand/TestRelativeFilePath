@@ -1,7 +1,7 @@
 # TestRelativeFilePath
 
 Test with 
-- two supposed relative path
+- two supposed relative path (must not work)
   - not supported on macOS and window
     - because we do not suppose relative to what? (current executing dir? yes maybe for command line tool it could have a sens, but not implemented )
   - seems partially supported on linux but getting .parent.parent etc... will failed, because only on file path splitting, and not OS file system feature

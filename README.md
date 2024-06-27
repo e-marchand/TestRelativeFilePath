@@ -3,8 +3,8 @@
 Test with 
 - two supposed relative path (must not work)
   - not supported on macOS and window
-    - because we do not suppose relative to what? (current executing dir? yes maybe for command line tool it could have a sens, but not implemented )
-  - seems partially supported on linux but getting .parent.parent etc... will failed, because only on file path splitting, and not OS file system feature
+    - because we do not known to what to be relative? (current executing dir? yes maybe for command line tool but for normal app, so not implemented )
+  - seems partially supported on ubu but getting .parent.parent etc... will failed, because only on file path splitting, and not OS file system feature
 - one absolute path
   - just to show that file exists
 

@@ -1,0 +1,11 @@
+*.Match
+*.4DD
+DerivedData
+userPreferences.*
+error
+Components/*
+tool4d/*
+tool4d.*
+build/*
+Project/Trash/*
+Libraries/lib4d-arm64.dylib
